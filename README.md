@@ -18,8 +18,8 @@ Características
 version: "3.8"Add commentMore actions
 
 services:
-  Mico-Leao-Torznab:
-    container_name: Mico-Leao-Torznab
+  mico-leao-torznab:
+    container_name: mico-leao-torznab
     build:
       context: .
     ports:
