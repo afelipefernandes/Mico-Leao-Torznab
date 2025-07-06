@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  Mico-Leao-Torznab:
+    container_name: Mico-Leao-Torznab
+    build:
+      context: .
+    ports:
+      - "5050:5050"
+    restart: unless-stopped
