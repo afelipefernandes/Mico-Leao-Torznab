@@ -204,4 +204,4 @@ def torznab_api():
 
 if __name__ == '__main__':
     # Para rodar localmente, use 0.0.0.0. Para produção, considere usar um servidor WSGI como Gunicorn.
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=5050, debug=False)
