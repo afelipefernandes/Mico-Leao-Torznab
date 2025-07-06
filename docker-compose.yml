@@ -1,8 +1,8 @@
 version: "3.8"
 
 services:
-  Mico-Leao-Torznab:
-    container_name: Mico-Leao-Torznab
+  mico-leao-torznab:
+    container_name: mico-leao-torznab
     build:
       context: .
     ports:
